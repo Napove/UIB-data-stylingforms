@@ -1,0 +1,116 @@
+body{
+    background-image: url(/images/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+ }
+
+.container{
+    display: grid;
+    grid-template-columns: 100px auto 100px ;
+    grid-template-rows: auto auto;
+    grid-row-gap: 50px;
+    
+    
+}
+
+header, form{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.bestbeer{
+   
+    
+    border-top: 10px solid black;
+    border-bottom:10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    background-color: rgba(211, 197, 197, 0.637);
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+form{
+    grid-row-start: 2;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+p{
+    text-align: center;
+}
+
+fieldset{
+    background-color: rgba(211, 197, 197, 0.637);
+    
+}
+
+.personal{
+    text-align: center;
+
+
+}
+.personal label {
+    text-align: left;
+    font-size: x-large;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: lighter;
+}
+
+input, label{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+label{
+    background-color: black;
+    padding-left: 4px;
+    color: cornsilk;
+} 
+
+button{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: cornsilk;
+    font-weight: lighter;
+    padding: 10px;
+    margin-top: 03px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: grey;
+    color: black;
+}
+footer{
+    margin-top: 10px;
+    color: rgb(139, 68, 68);
+}
+
